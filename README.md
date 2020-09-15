@@ -30,7 +30,14 @@ They have a clear relation to encoding.
 
 **Write a good explanation of how this works**
 
+### Experiment 1e:
+
+What happens when we train with noisy data? What do the weights look like? How noisy before we get wrong answers.
+This is related to where the decision boundaries are drawn?
+
 ### Coming experiments:
 
+
 - Play around with *normalising* the data first.
+- What happens when we include noise in the data?
 - What happens when we include two different encodings?
