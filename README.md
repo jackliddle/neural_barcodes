@@ -20,6 +20,7 @@ There is the concept of *batch-size* which (I think) is how many inputs we show 
 Here I experiment with the size of the batches, finding that a batch size of 1 converges the fastest.
 
 **To-do:  Better understanding of how and why the network converges fastest with a batchsize of 1**
+
 I think this makes sense
 
 ### Experiment 1d:
@@ -27,8 +28,9 @@ I think this makes sense
 What do the weights look like?
 They have a clear relation to encoding.
 
-**
+**Write a good explanation of how this works**
 
 ### Coming experiments:
 
 - Play around with *normalising* the data first.
+- What happens when we include two different encodings?
