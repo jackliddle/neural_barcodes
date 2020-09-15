@@ -13,13 +13,13 @@ In retrospect this is obvious the outputs have no linear relationship to the out
 
 SKLearn usecases *one-hot* encoding for these multi-output classification problems. Which seems like it a good choice, but I would like to try other encodings, such as a binary encoding, i.e. encoding the output digit as a 4-bit number
 
-** To-do: Finish off this experiment **
+**To-do: Finish off this experiment**
 ### Experiment 1c:
 
 There is the concept of *batch-size* which (I think) is how many inputs we show to network before updating the weights.
 Here I experiment with the size of the batches, finding that a batch size of 1 converges the fastest.
 
-** To-do:  Better understanding of how and why the network converges fastest with a batchsize of 1 **
+**To-do:  Better understanding of how and why the network converges fastest with a batchsize of 1**
 I think this makes sense
 
 ### Experiment 1d:
